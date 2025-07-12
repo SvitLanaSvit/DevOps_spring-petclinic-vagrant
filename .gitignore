@@ -1,0 +1,19 @@
+# Vagrant
+.vagrant/
+*.box
+
+# Maven
+/target/
+/**/target/
+
+# IntelliJ IDEA / Eclipse / VSCode
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

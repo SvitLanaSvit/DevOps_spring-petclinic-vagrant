@@ -32,4 +32,4 @@ sleep 60
 echo "[INFO] Starting APP_VM..."
 vagrant up APP_VM --provision
 
-echo "[✅] All done! PetClinic should be available at http://${APP_HOST}:8080"
+echo "[INFO] All done! PetClinic should be available at http://${APP_HOST}:8080"

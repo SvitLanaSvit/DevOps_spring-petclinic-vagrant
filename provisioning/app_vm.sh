@@ -73,4 +73,4 @@ main() {
 }
 
 main
-echo "[✅] PetClinic app setup complete! Access it at http://${APP_HOST}:8080"
+echo "[INFO] PetClinic app setup complete! Access it at http://${APP_HOST}:8080"

@@ -8,6 +8,7 @@ echo ""
 
 # Встановлюємо дефолтні значення
 DB_HOST="192.168.56.10"
+APP_HOST="192.168.56.20"
 DB_PORT="3306"
 APP_USER="petclinicapp"
 
@@ -18,6 +19,7 @@ export DB_PASS
 export DB_HOST
 export DB_PORT
 export APP_USER
+export APP_HOST
 
 # Запуск DB_VM
 echo "[INFO] Starting DB_VM..."
@@ -30,4 +32,4 @@ sleep 60
 echo "[INFO] Starting APP_VM..."
 vagrant up APP_VM --provision
 
-echo "[✅] All done! PetClinic should be available at http://localhost:8080"
+echo "[✅] All done! PetClinic should be available at http://${APP_HOST}:8080"

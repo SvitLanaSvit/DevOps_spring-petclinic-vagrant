@@ -40,5 +40,28 @@ vagrant up
 
 ## Результат роботи
 
-### Vagrantfile:
-![Vagrantfile]()
+### 1. Vagrantfile:
+![Vagrantfile](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/1.png)
+
+### 2. Скрін git репозиторія з проектом PetClinic
+![GIT](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/2.1.png)
+![GIT](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/2.2.png)
+
+### 2. Скрін підключення з однієї віртуалки до бази даних, яка на іншій
+![connection](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/3.png)
+
+### 4. Усі налаштування виконуються автоматично за допомогою скриптів.
+Жодних додаткових ручних дій поза межами Vagrantfile та скриптів (start.sh, db_vm.sh, app_vm.sh) не виконувалося.
+Тому немає потреби у скріншотах ручного налаштування, оскільки вся конфігурація автоматизована і повністю описана в репозиторії.
+
+### 5. Скрін роботи аплікації на 8080 порту з прикладом додавання своїх даних
+![app](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/5.1.png)
+![app](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/5.2.png)
+![app](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/5.3.png)
+
+### 6. Скрін сайту з існуючими й своїми доданими даними
+![app](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/6.1.png)
+![app](https://github.com/SvitLanaSvit/DevOps_spring-petclinic-vagrant/blob/main/Screenshots/6.2.png)
+
+
+

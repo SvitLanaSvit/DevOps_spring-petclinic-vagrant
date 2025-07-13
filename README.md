@@ -37,4 +37,8 @@ vagrant halt
 
 ### Щоб знову запустити:
 vagrant up
-```
+
+## Результат роботи
+
+### Vagrantfile:
+![Vagrantfile]()
